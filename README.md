@@ -2,8 +2,8 @@
 
 <div id="builder">
 
-Domain: <input v-model="domain" placeholder="www.example.com">
-IP-Address: <input v-model="ip" placeholder="127.0.0.1">
+Domain: <input v-model="domain" placeholder="www.example.com"><br>
+IP-Address: <input v-model="ip" placeholder="127.0.0.1"><br>
 
 Your domain is: <span style="color: red;">{{ domain }}</span>
 Your IP-Adress is: <span style="color: red;">{{ ip }}</span>
